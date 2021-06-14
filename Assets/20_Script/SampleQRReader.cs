@@ -68,6 +68,7 @@ public class SampleQRReader : MonoBehaviour
         {
             _scanResult.text = "code: " + Read(_webCam);
         }
+        // TODO:  メモリの使用量表示
         // _monoUsedSize = Profiler.GetMonoUsedSizeLong() / 1024f / 1024f;
         // _monoReservedSize = Profiler.GetMonoHeapSizeLong() / 1024f / 1024f;
         // _unityUsedSize = Profiler.GetTotalAllocatedMemoryLong() / 1024f / 1024f;
